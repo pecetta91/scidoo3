@@ -28,7 +28,8 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
       var notificationOpenedCallback = function(jsonData) {
-        console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+        alert("Notifica ricevuta");
+        //console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
       };
 
       window.plugins.OneSignal
@@ -36,6 +37,9 @@ var app = {
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit();
         //this.receivedEvent('deviceready');
+
+      window.plugins.OneSignal.setSubscription(true);
+      window.plugins.OneSignal.enableNotificationWhenActive(true);
     },
     /*
     // Update DOM on a Received Event
