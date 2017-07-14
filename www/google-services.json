@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1029713735466",
+    "firebase_url": "https://scidoo-c918f.firebaseio.com",
+    "project_id": "scidoo-c918f",
+    "storage_bucket": "scidoo-c918f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029713735466:android:454ab292d662a348",
+        "android_client_info": {
+          "package_name": "com.scidoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029713735466-kghk5ic3i1ljou2028ivof2cu087vjnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FIdlMaT3o0-i9zNT4tzdjq2KCye7dVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
